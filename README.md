@@ -5,3 +5,6 @@ This script does not provide a particularly good interface. It is meant as a dem
 This script requires `btgatt-client` from `bluez-utils`. To pair with the Camera, you will need the camera's Bluetooth MAC address, which can be found under it's Bluetooth settings menu. Then enable Bluetooth on the camera, set the "Bluetooth function" to "Remote" and click pair. On your computer, run `./remote.py <address> pair`.
 
 You can then execute commands. For example, `./remote.py <address> ir` releases the shutter immediately.
+
+### Related Projects
+* [cbremote](https://github.com/iebyt/cbremote) is an Android app based on this
